@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <title>Qantas</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+    </head>
+
+
+
+<body class="index-page">
+
+<SCRIPT>
+function passWord() {
+    var testV = 1;
+    var pass1 = prompt('請輸入行李托運代碼','');
+    while (testV < 3) {
+        if (pass1.toLowerCase() == "qantas") {
+            alert('歡迎使用Qantas行李托運');
+            window.open('qantascheck.html');
+            break;
+        } 
+         if (pass1.toLowerCase() == "5d91a") {
+            alert('歡迎使用Qantas行李托運');
+            window.open('luggage1.html');
+            break;
+        } 
+          if (pass1.toLowerCase() == "36h54") {
+            alert('歡迎使用Qantas行李托運');
+            window.open('luggage2.html');
+            break;
+        } 
+        testV+=1;
+        var pass1 = prompt('拒絕存取 - 密碼錯誤, 請重試.','');
+    }
+    if (pass1.toLowerCase()!="password" & testV ==3);
+    return " ";
+}
+</SCRIPT>
+
+      <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+      <center> <a href="#!" class="brand-logo"><font size="4">Qantas行李托運</font></a></center>
+      </div>
+    </nav>
+  </div>
+        <CENTER>
+<FORM>
+<input class="btn waves-effect waves-light" type="button" value="登入" onClick="passWord()">
+</FORM>
+</CENTER>
+  <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+
+              
+
+
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+            
+                
+       
+       
+
+</body>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+  
+</html>
+
+
+
+ 
+
