@@ -9,7 +9,7 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 
     </head>
 
@@ -151,7 +151,7 @@
     <div class="card horizontal">
       <div class="card-image waves-effect waves-block waves-light">
 
-        <img class="activator" src="gatetime.jpg">
+        <img class="activator" src="./assets/gatetime.jpg">
       </div>
       
         <div class="card-content">
@@ -173,7 +173,7 @@
                 <div class="col s12 m7">
                    <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="its-about-banner-baggage-760.jpg">
+      <img class="activator" src="./assets/its-about-banner-baggage-760.jpg">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Qantas行李托運<i class="material-icons right">more_vert</i></span>
@@ -194,7 +194,7 @@
                 <div class="col s12 m7">
                    <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="australia-qantas_lea.jpg">
+      <img class="activator" src="./assets/australia-qantas_lea.jpg">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">機隊資料<i class="material-icons right">more_vert</i></span>
@@ -230,7 +230,7 @@
           <div class="card">
 
             <div class="card-image">
-              <img src="qantas1401294851.jpg">
+              <img src="./assets/qantas1401294851.jpg">
               <span class="card-title"><font color="blue"><b></b></font></span>
             </div>
             <div class="card-content">
@@ -247,7 +247,7 @@
                 <div class="col s12 m7">
                    <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="new-qf-logo-1.jpg">
+      <img class="activator" src="./assets/new-qf-logo-1.jpg">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">關於澳洲航空公司<i class="material-icons right">more_vert</i></span>

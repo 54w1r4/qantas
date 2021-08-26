@@ -4,16 +4,16 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
   <title>Qantas :: 澳洲航空</title>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
 
     
     
-    <script src="jquery.lazyload.js" type="text/javascript"> </script> 
+    <script src="../js/jquery.lazyload.js" type="text/javascript"> </script> 
  
 
 <style>
@@ -260,7 +260,7 @@ function showPage() {
 
   <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.js"></script>
+      <script type="text/javascript" src="../js/materialize.js"></script>
             
                <!--  <script>
       // Note: This example requires that you consent to location sharing when
@@ -343,9 +343,9 @@ function showPage() {
   };
   firebase.initializeApp(config);
 </script>
-<script src="index.js"></script>
+<script src="../js/index.js"></script>
 </body>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
 
 </html>
 
