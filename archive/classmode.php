@@ -304,9 +304,7 @@ function showPage() {
         infoWindow.open(map);
       }
     </script> -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5H-1b_oEfo1D4deNKF7357hDxNW0A9hE&callback=initMap">
-    </script>
+    
 
 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>

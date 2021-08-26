@@ -9,7 +9,7 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 
     
     
@@ -641,7 +641,7 @@ function showPage() {
         </div>
         <div class="card-action">
           <a href="systemstatus.php">系統狀態</a>
-          <a href="classmode.php" >課室模式</a>
+          <!-- <a href="classmode.php" >課室模式</a> -->
         </div>
       </div>
     </div>

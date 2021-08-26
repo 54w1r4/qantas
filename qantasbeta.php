@@ -4,7 +4,7 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
   <title>QantasBeta</title>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -538,9 +538,9 @@ function showPage() {
 
   <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.js"></script>
+      <script type="text/javascript" src="../js/materialize.js"></script>
             
-                 <script>
+                 <!-- <script>
       // Note: This example requires that you consent to location sharing when
       // prompted by your browser. If you see the error "The Geolocation service
       // failed.", it means you probably did not give permission for the browser to
@@ -581,10 +581,8 @@ function showPage() {
                               'Error: Your browser doesn\'t support geolocation.');
         infoWindow.open(map);
       }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5H-1b_oEfo1D4deNKF7357hDxNW0A9hE&callback=initMap">
-    </script>
+    </script> -->
+    
 
        
        
@@ -600,7 +598,7 @@ function showPage() {
   
 
 </body>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
 
 </html>
 

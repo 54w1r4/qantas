@@ -22,9 +22,9 @@ var lessonRef = db.collection("activity_control").doc("lesson");
 
 lessonRef.get().then(function(doc) {
 	if (doc.exists) {
-		console.log("Yes !");
+		//console.log("Yes !");
 		const status=doc.data();
-		console.log(status);
+		// console.log(status);
 		if (status.chinese == true) {
 		TextField.innerText="目前狀態 : 中文";
 	}
