@@ -13,7 +13,7 @@
 
     
     
-    <script src="jquery.lazyload.js" type="text/javascript"> </script> 
+    <script src="js/jquery.lazyload.js" type="text/javascript"> </script> 
  
 
 <style>
@@ -104,18 +104,21 @@ function showPage() {
 <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
 
 <!-- Add additional services that you want to use -->
-<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+
 
 <!-- Comment out (or don't include) services that you don't want to use -->
 <!-- <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script> -->
 
 <script>
+  // Initialize Firebase
   var config = {
-    // ...
+    apiKey: "AIzaSyAwYAh4Rs4hJbOkfrkkwUkeOm4E4MTM3QA",
+    authDomain: "qantasinflightmanagementsystem.firebaseapp.com",
+    databaseURL: "https://qantasinflightmanagementsystem.firebaseio.com",
+    projectId: "qantasinflightmanagementsystem",
+    storageBucket: "qantasinflightmanagementsystem.appspot.com",
+    messagingSenderId: "262712817852"
   };
   firebase.initializeApp(config);
 </script>
@@ -610,7 +613,7 @@ function showPage() {
           <div class="card">
 
             <div class="card-image">
-              <img src="qantas1401294851.jpg">
+              <img src="./assets/qantas1401294851.jpg">
               <span class="card-title"><font color="blue"><b></b></font></span>
             </div>
             <div class="card-content">
@@ -705,48 +708,9 @@ function showPage() {
         infoWindow.open(map);
       }
     </script> -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5H-1b_oEfo1D4deNKF7357hDxNW0A9hE&callback=initMap">
-    </script>
+   
 
-<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAwYAh4Rs4hJbOkfrkkwUkeOm4E4MTM3QA",
-    authDomain: "qantasinflightmanagementsystem.firebaseapp.com",
-    databaseURL: "https://qantasinflightmanagementsystem.firebaseio.com",
-    projectId: "qantasinflightmanagementsystem",
-    storageBucket: "qantasinflightmanagementsystem.appspot.com",
-    messagingSenderId: "262712817852"
-  };
-  firebase.initializeApp(config);
-</script>
-       
-       
-        
-       
-          
-      <!-- Modal content-->
-     
-      
-  
-<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAwYAh4Rs4hJbOkfrkkwUkeOm4E4MTM3QA",
-    authDomain: "qantasinflightmanagementsystem.firebaseapp.com",
-    databaseURL: "https://qantasinflightmanagementsystem.firebaseio.com",
-    projectId: "qantasinflightmanagementsystem",
-    storageBucket: "qantasinflightmanagementsystem.appspot.com",
-    messagingSenderId: "262712817852"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="index.js"></script>
+<script src="js/index.js"></script>
 </body>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
